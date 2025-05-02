@@ -7,7 +7,6 @@ workflows:
         PACKAGE_NAME: "com.legalassistapp"  # Customize as needed
       node: 18
       xcode: latest
-      android: latest
     scripts:
       - name: Install dependencies
         script: |
